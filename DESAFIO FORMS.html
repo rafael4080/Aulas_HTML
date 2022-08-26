@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Forms</title>
+</head>
+<body>
+  <h3>Cadastro da liga das astronautas</h3>
+  <form action=""><!--Form-->
+    <div>
+    <label for ="name">Nome:</label>
+     <input type="text"  id="name" name="name">
+    </div>
+    <br>
+    <div>
+      <label for="e-mail">E-mail:</label>
+      <input type="email"   name="email" id="emil ">-
+      <label for="password">Password:</label>
+      <input type="password"   name="password" id="password">
+    </div>
+    <br>
+    <div>
+      <label for="birthday">Data de nascimento:</label>
+      <input type="date" nome="birthday" id="birthday">-
+      <label for="file">Foto:</label>
+      <input type="file" name="file" id="file">
+    </div>
+    <br>
+    <div>
+      <label for="nationality">Nacionalidade</label>
+      <select name="nationality" id="nationality">
+          <option value="russia">Rússia</option>
+          <option value="Estados Unidos">Estados Unidos</option>
+         <option value="Italia">Italia</option>
+         <option value="Brasil">Brasil</option>
+         <option value="Ucrânia">Ucrância</option>
+      </select>
+    <input type="radio" name="radsex" id="Fem">
+    <label for="Fem">F</label>
+    <input type="radio" name="radsex" id="Masc" checked>
+    <label for="Masc">M</label>
+    </div>
+    <div>
+  <br>
+  <p>Suas pincipais qualidades:</p>
+     <label for="int">Inteligência</label><!------>
+     <input type="checkbox" name="int" id="int">
+     <label for="res">Resiliência</label><!------>
+    <input type="checkbox" name="res" id="res">
+    <label for="pf">Preparo físico</label><!------->
+    <input type="checkbox" name="pf" id="pf">
+    <label for="edu">Educação</label><!------->
+    <input type="checkbox" name="educ">
+</div>
+<div>
+  <textarea  name="description" id="description" cols="40" rows="10" placeholder="Porquê você gostaria de ser um astronauta"></textarea>
+</div>
+<div>
+  <br>
+  <input type="submit" value="Criar">
+</div>
+  </form><!----Form-->
+</body>
+</html>
